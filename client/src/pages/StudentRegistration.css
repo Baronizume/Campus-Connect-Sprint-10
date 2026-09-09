@@ -1,0 +1,37 @@
+.registration {
+    width: 400px;
+    margin: 30px auto;
+}
+
+.registration h1 {
+    text-align: center;
+}
+
+.registration label {
+    display: block;
+    margin-top: 10px;
+}
+
+.registration input,
+.registration select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.registration button {
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 8px 15px;
+}
+
+.error {
+    color: red;
+    margin: 3px 0;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
