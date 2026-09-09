@@ -1,16 +1,90 @@
-# React + Vite
+# 🎓 Campus Connect - Sprint 10
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Campus Connect is a student management platform designed to make campus activities easier to manage and access.
 
-Currently, two official plugins are available:
+Sprint 10 focuses on improving the frontend experience with dynamic pages, clickable dashboard features, login validation, and student registration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Sprint 10 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🏠 Home Page
+- Modern Campus Connect landing page
+- Hero section
+- Campus feature cards
+- Interactive/clickable feature sections
+- Responsive design
 
-## Expanding the ESLint configuration
+### 📊 Student Dashboard
+- Student dashboard overview
+- Courses card
+- Assignments card
+- Announcements card
+- Clickable dashboard cards
+- Recent courses
+- Upcoming assignments
+- Announcement section
+- Responsive dashboard layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔐 Login
+- Student login interface
+- Email validation
+- Password validation
+- Empty-field validation
+- Login success message
+- Navigation to Dashboard after successful login
+- Navigation to Student Registration
+
+### 📝 Student Registration
+- Full name
+- Student ID
+- Email
+- Phone number
+- Department selection
+- Year selection
+- Form validation
+- Email validation
+- Phone number validation
+- Reset functionality
+- Registration success message
+- Navigation back to Login
+
+---
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- npm
+- Git
+- GitHub
+
+---
+
+## 📁 Project Structure
+
+```text
+Campus-Connect-Sprint-10/
+│
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Login.jsx
+│   │   │   └── StudentRegistration.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   └── main.jsx
+│   │
+│   ├── package.json
+│   ├── package-lock.json
+│   └── vite.config.js
+│
+├── .gitignore
+└── README.md
